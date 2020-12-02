@@ -10,7 +10,7 @@ function handleSubmit(event) {
         console.log("::: FORM INPUT VALID :::")
         
         console.log("BUILDING REQUEST");
-        fetch('http://localhost:3000/article', {
+        fetch('/article', {
             method: 'POST',
             mode: 'cors',
             headers: {
@@ -41,4 +41,5 @@ function handleSubmit(event) {
     } 
 }
 
-export { handleSubmit }
+  
+  export { handleSubmit };
